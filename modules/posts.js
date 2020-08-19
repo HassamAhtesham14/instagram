@@ -1,5 +1,5 @@
 var mongoose =require("mongoose");
-mongoose.connect('mongodb+srv://test:pass@cluster0.j9jrp.mongodb.net/posts?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://test:r2[ZY9@6qlXYt5@cluster0.iz9hd.mongodb.net/products?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 var conn=mongoose.connection;
 var postsSchema = new mongoose.Schema({
     description: String,
